@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    background-image: url("https://c.wallhere.com/photos/b5/e3/nature_landscape_mountains_clouds_sky_snow_snowy_mountain_sunset-1813049.jpg!d ");
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+.main{
+    margin:auto;
+}
+ul{
+    float:right;
+    margin-top:25px;
+    margin-right: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    color: rgb(12, 12, 12); 
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(244, 241, 241);
+}
+ul li a:hover{
+    background-color:rgb(11, 11, 11);
+    color:rgb(254, 252, 252);
+    transition: 0.6s ease;
+
+}
+.active{
+    background-color: rgb(10, 10, 10);
+   color: rgb(251, 250, 250);
+}
+.center_text{
+    margin-left: 50px;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    font-size: 25px;
+}
+h1{
+    color: black;
+    size: 500px;
+     }
+     #bt1{
+        border: 1px solid white;
+        color: black;
+        padding: 5px;
+        text-decoration:none;
+     }
+     #bt2{
+        border: 1px solid white;
+        color: black;
+        padding: 5px;
+        text-decoration:none;
+    
+     }
+     .center_text a:hover{
+        background-color: white;
+        transition: 0.6,ease;
+     }
+     footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    #p1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: black;
+        display: flex;
+        width:500px;
+        height: 500px;
+        margin-left: 30px;
+        margin-top: 120px;
+        flex-direction: row;
+    }
+    #p2{
+        font-weight: 200px;
+    }
+    .box{
+        background-color: transparent;
+        height: 300px;
+        width: 400px;
+        border-radius: 10%;
+        border: 2px solid rgba(17, 17, 17, 0.966);
+        backdrop-filter: blur(2px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right:30px;
+        }
+        a{
+            text-decoration: none;
+            background-color: transparent;
+            color: rgb(14, 14, 14);
+              
+        }
+         input{width:300px;
+             padding :10px;
+            border-radius: 5px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            
+            
+        }
+        .links{ color: rgb(7, 7, 8);
+            
+            background-color: transparent;
+            align-items: center;
+            justify-content: space-evenly;
+            display: flex;
+           flex-direction: row;
+            font-size: 20px;
+        }
+        #login{
+            display: flex;
+           justify-content: space-evenly;
+           color: beige;
+           font-family:Arial, Helvetica, sans-serif;
+           font-size:  30px;
+           color: beige;
+           }
+           .mid{
+            display: flex;
+            flex-direction: row;
+           }
+           .social-icons {
+            display: flex;
+            justify-content: space-between;
+            width: 150px; 
+            flex-direction: column;
+            margin-left: 500px;
+            height: 200px;
+            margin-top: 40px;
+            align-items: center;
+          }
+          
+          .fab {
+            font-size: 50px;  
+            transition: color 0.3s ease; / 
+          }
+          
+          .fab:hover {
+            color: #f4f5f7;  
+          }
+          .fa-instagram{
+            color: purple;
+          }
+          .fa-facebook{
+            color: blue;
+          }
+        .fa-twitter{
+            color: #066df4;
+        }
+ 
